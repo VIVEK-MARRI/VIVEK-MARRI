@@ -84,14 +84,6 @@
   <img src="https://streak-stats.demolab.com?user=VIVEK-MARRI&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
----
-
-### 🐍 Contribution Snake  
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/VIVEK-MARRI/VIVEK-MARRI/main/output/snake.svg" alt="GitHub Contribution Snake" />
-</p>
-
 
 ---
 
