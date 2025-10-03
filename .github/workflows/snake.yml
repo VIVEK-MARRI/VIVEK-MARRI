@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: '0 * * * *'   # runs every hour (adjust if needed)
+    - cron: '0 * * * *'   # runs every hour, adjust if needed
   workflow_dispatch:       # allows manual trigger
 
 jobs:
@@ -20,21 +20,19 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install pyGithub matplotlib pandas numpy
+          pip install matplotlib numpy pandas
 
       - name: Generate Snake SVG
         run: |
           mkdir -p output
-          # Replace with your snake generator script if you have one
+          # Replace this line with your actual snake generation script
           # Example: python generate_snake.py --output output/snake.svg
           echo '<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><rect width="10" height="10" fill="red"/></svg>' > output/snake.svg
 
       - name: Commit & Push Updates
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "VIVEK-MARRI"
           git config --global user.email "vivekyadavmarri@gmail.com"
           git add output/snake.svg
           git commit -m "Update snake contribution [skip ci]" || echo "No changes to commit"
-          git push https://$GH_PAT@github.com/VIVEK-MARRI/VIVEK-MARRI.git HEAD:main
+          git push https://VIVEK-MARRI:${{ secrets.GH_PAT }}@github.com/VIVEK-MARRI/VIVEK-MARRI.git HEAD:main
