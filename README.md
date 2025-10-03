@@ -14,33 +14,50 @@
 - 🎯 Goal: Build **end-to-end AI apps** (Model → API → Deployment)  
 
 ---
-
 ### 🛠️ Tech Arsenal  
 
-#### 🚀 Languages  
-![Python](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54)  
-![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)  
+<p align="center">
+
+<!-- Languages -->
+<b>🚀 Languages</b>  
+<br>
+![Python](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54) &nbsp;
+![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white) &nbsp;
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)  
 
-#### 🤖 AI & ML  
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)  
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)  
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)  
+
+<!-- AI & ML -->
+<b>🤖 AI & ML</b>  
+<br>
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white) &nbsp;
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) &nbsp;
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white) &nbsp;
 ![Keras](https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white)  
 
-#### 📚 GenAI & NLP  
-![LangChain](https://img.shields.io/badge/LangChain-0E76A8?logo=openai&logoColor=white)  
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FCC624?logo=huggingface&logoColor=black)  
+
+<!-- GenAI & NLP -->
+<b>📚 GenAI & NLP</b>  
+<br>
+![LangChain](https://img.shields.io/badge/LangChain-0E76A8?logo=openai&logoColor=white) &nbsp;
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FCC624?logo=huggingface&logoColor=black) &nbsp;
 ![Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?logo=google&logoColor=white)  
 
-#### 🌐 Web & Backend  
-![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)  
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)  
+<!-- Web & Backend -->
+<b>🌐 Web & Backend</b>  
+<br>
+![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white) &nbsp;
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) &nbsp;
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)  
 
-#### 🗄️ Databases  
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)  
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)  
+<!-- Databases -->
+<b>🗄️ Databases</b>  
+<br>
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white) &nbsp;
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+
+</p>
+
+
 
 ---
 
