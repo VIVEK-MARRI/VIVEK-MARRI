@@ -1,38 +1,31 @@
-name: Generate Snake
+name: generate-snake
 
 on:
   schedule:
-    - cron: '0 * * * *'   # runs every hour, adjust if needed
-  workflow_dispatch:       # allows manual trigger
+    - cron: "0 */12 * * *" # Runs every 12 hours
+  workflow_dispatch:        # Allows manual run
+  push:
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Generate snake animation
+        uses: Platane/snk@v3
         with:
-          python-version: '3.x'
+          github_user_name: VIVEK-MARRI
+          outputs: dist/snake.svg
 
-      - name: Install Dependencies
-        run: |
-          pip install matplotlib numpy pandas
-
-      - name: Generate Snake SVG
-        run: |
-          mkdir -p output
-          # Replace this line with your actual snake generation script
-          # Example: python generate_snake.py --output output/snake.svg
-          echo '<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><rect width="10" height="10" fill="red"/></svg>' > output/snake.svg
-
-      - name: Commit & Push Updates
-        run: |
-          git config --global user.name "VIVEK-MARRI"
-          git config --global user.email "vivekyadavmarri@gmail.com"
-          git add output/snake.svg
-          git commit -m "Update snake contribution [skip ci]" || echo "No changes to commit"
-          git push https://VIVEK-MARRI:${{ secrets.GH_PAT }}@github.com/VIVEK-MARRI/VIVEK-MARRI.git HEAD:main
+      - name: Push snake animation to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output   # branch where snake.svg will be stored
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
