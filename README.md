@@ -107,7 +107,7 @@
 ### 🐍 Contribution Snake  
 
 <p align="center">
-  <img src="output/github-contribution-grid-snake.svg" alt="snake animation"/>
+  <img src="https://raw.githubusercontent.com/VIVEK-MARRI/VIVEK-MARRI/output/github-contribution-grid-snake.svg" alt="snake animation"/>
 </p>
 
 
@@ -134,4 +134,4 @@
   <img src="https://komarev.com/ghpvc/?username=VIVEK-MARRI&label=Profile+Views&color=blue&style=flat" alt="profile views"/>
 </p>
 
-✨ *“AI won’t replace humans, but humans with AI will replace humans without it.”*  
+✨ *“AI won’t replace humans, but humans with AI will replace humans without it.”*    
