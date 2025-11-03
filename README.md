@@ -67,6 +67,7 @@
 
 | 🚀 Project | 📌 Description |
 |------------|---------------|
+| **Urban Flood Early Warning System**<br>🌊 **AI + MLOps End-to-End** | **Production-grade real-time flood risk prediction platform for urban disasters.**<br>— Multi-service stack (Airflow, MLflow, FastAPI, Streamlit, PostgreSQL, Prometheus) <br>— Robust ML pipelines, live-model retraining, dashboards, and actionable alerts.<br>— Fully containerized: One-command deploy for city-scale! |
 | **AI HealthCare Chatbot** | Conversational AI for medical queries (NLP + Flask) |
 | **Language Detection (BERT/NLP)** | Detects & classifies languages using BERT/ML |
 | **INSIGHT_BOT** | Generative AI Assistant (LangChain + Gemini API + Streamlit) |
