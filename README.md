@@ -27,7 +27,6 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) &nbsp;
 ![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
 
-
 <!-- AI & ML -->
 <b>🤖 AI & ML</b>  
 <br>
@@ -35,7 +34,11 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) &nbsp;
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white) &nbsp;
 ![Keras](https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white)  
-
+<br>
+<!-- Newly added — Advanced ML & End-to-End Pipeline -->
+![XGBoost](https://img.shields.io/badge/XGBoost-EC6608?logo=python&logoColor=white) &nbsp;
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white) &nbsp;
+![SHAP](https://img.shields.io/badge/SHAP-grey?logo=python&logoColor=white)
 
 <!-- GenAI & NLP -->
 <b>📚 GenAI & NLP</b>  
@@ -50,14 +53,25 @@
 ![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white) &nbsp;
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) &nbsp;
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)  
-
+<br>
+<!-- Newly added — MLOps Orchestration & Observability -->
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?logo=apacheairflow&logoColor=white) &nbsp;
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white) &nbsp;
+![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
+ 
 <!-- Databases -->
 <b>🗄️ Databases</b>  
 <br>
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) &nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white) &nbsp;
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
 
-</p>
+<!-- MLOps & Deployment -->
+<b>☁️ MLOps & Deployment</b>  
+<br>
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) &nbsp;
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white) &nbsp;
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
 
 
 
