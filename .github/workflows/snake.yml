@@ -15,12 +15,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Generate Neon Dark Snake SVG
+      - name: Generate Soft Neon Dark Snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00FFFF&color_dots=#39FF14,#9400FF,#FF00E6,#00FFF7,#06D6A0
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#4DFFFF&color_dots=#7CFFB2,#B175FF,#FF7AF7,#7CFFF9,#7EF9D0
 
       - name: Push Snake SVG to output branch
         uses: peaceiris/actions-gh-pages@v3
