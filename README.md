@@ -22,9 +22,7 @@
 <b>🚀 Languages</b>  
 <br>
 ![Python](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54) &nbsp;
-![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white) &nbsp;
 ![C](https://img.shields.io/badge/C-555555?logo=c&logoColor=white) &nbsp;
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) &nbsp;
 ![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
 
 <!-- AI & ML -->
