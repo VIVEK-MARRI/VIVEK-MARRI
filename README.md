@@ -10,7 +10,6 @@
 - 🤖 **AI/ML Enthusiast & Generative AI Explorer**  
 - 🧠 Passionate about **Deep Learning, Transformers & GANs**  
 - 🔍 Currently building projects in **Healthcare AI, NLP & Risk Analytics**  
-- 📚 DSA Warrior: **1 problem a day keeps the bugs away**  
 - 🎯 Goal: Build **end-to-end AI apps** (Model → API → Deployment)  
 
 ---
@@ -23,7 +22,9 @@
 <br>
 ![Python](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54) &nbsp;
 ![C](https://img.shields.io/badge/C-555555?logo=c&logoColor=white) &nbsp;
-![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white) &nbsp;
+![SQL](https://img.shields.io/badge/SQL-003B57?logo=postgresql&logoColor=white)
+
 
 <!-- AI & ML -->
 <b>🤖 AI & ML</b>  
@@ -76,15 +77,18 @@
 ---
 
 ### 🔥 Featured Projects  
+ 
 
 | 🚀 Project | 📌 Description |
 |------------|---------------|
-| **Urban Flood Early Warning System**<br>🌊 **AI + MLOps End-to-End** | **Production-grade real-time flood risk prediction platform for urban disasters.**<br>— Multi-service stack (Airflow, MLflow, FastAPI, Streamlit, PostgreSQL, Prometheus) <br>— Robust ML pipelines, live-model retraining, dashboards, and actionable alerts.<br>— Fully containerized: One-command deploy for city-scale! |
-| **AI HealthCare Chatbot** | Conversational AI for medical queries (NLP + Flask) |
-| **Language Detection (BERT/NLP)** | Detects & classifies languages using BERT/ML |
-| **INSIGHT_BOT** | Generative AI Assistant (LangChain + Gemini API + Streamlit) |
-| **RiskLens AI** | Fraud detection with SHAP explanations & Streamlit dashboard |
-| **DSA Repository** | Daily problem-solving repository (arrays, graphs, DP) |
+| **Urban Flood Early Warning System**<br>🌊 **AI + MLOps End-to-End** | **Production-grade real-time flood risk prediction platform for urban disasters.**<br>— Multi-service stack (Airflow, MLflow, FastAPI, Streamlit, PostgreSQL, Prometheus)<br>— Robust ML pipelines, live model retraining, dashboards, and actionable alerts<br>— Fully containerized: one-command deploy for city-scale usage |
+| **Intelligent Logistics & Delivery Optimization (IntelliLog-AI)**<br>🚚 **Backend + Optimization Systems** | **Real-time logistics optimization platform for urban delivery fleets.**<br>— ETA prediction using XGBoost and route optimization with Google OR-Tools (VRP)<br>— High-throughput FastAPI microservices with Docker-based deployment<br>— Custom routing heuristics reducing delivery delays by **~25%** |
+| **AI HealthCare Chatbot** | Conversational AI for medical queries using NLP and Flask |
+| **Language Detection (BERT/NLP)** | Language detection and classification using BERT-based NLP models |
+| **INSIGHT_BOT** | Generative AI assistant built with LangChain, Gemini API, and Streamlit |
+| **RiskLens AI** | Fraud detection system with SHAP-based explainability and Streamlit dashboard |
+| **DSA Repository** | Daily problem-solving repository covering arrays, graphs, DP, and core algorithms |
+
 
 ---
 
