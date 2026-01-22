@@ -1,5 +1,5 @@
 <!-- Typing animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=00F779&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Vivek+Marri!;AI+%26+ML+Enthusiast+%F0%9F%A4%96;Generative+AI+Explorer+%F0%9F%9A%80;DSA+Problem+Solver+%F0%9F%92%BB;Building+AI+Apps+that+Matter!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=00F779&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Vivek+Marri!;AI+%26+ML+Enthusiast+%F0%9F%A4%96;Generative+AI+Explorer+%F0%9F%9A%80;Building+AI+Apps+that+Matter!)](https://git.io/typing-svg)
 
 ---
 
