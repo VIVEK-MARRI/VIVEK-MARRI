@@ -328,6 +328,6 @@ I'm always interested in collaborating on innovative AI projects, discussing ML 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=fff&animation=twinkling&fontAlignY=65"/>
 
-### ⭐ "AI won't replace humans, but humans with AI will replace humans without it." ⭐
+### ⭐ "AI won't replace humans, but humans with AI will replace humans without it.." ⭐
 
 </div>
