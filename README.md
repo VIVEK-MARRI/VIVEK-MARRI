@@ -1,333 +1,198 @@
-<div align="center">
+<p align="center">
+  <img src="assets/system-header.png" width="100%" alt="Vivek Marri — system header" />
+</p>
 
-# 👋 Hi, I'm Vivek Marri
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=22D3EE&center=true&vCenter=true&width=850&lines=Multi-Agent+RAG+%7C+Hybrid+Retrieval+%7C+Guardrails;FastAPI+%7C+LangGraph+%7C+PostgreSQL%2Fpgvector;MLOps+%7C+Docker+%7C+GitHub+Actions;Verified+via+output%2C+not+prose." alt="Typing introduction" />
+</p>
 
-### AI/ML Engineer | Generative AI Specialist | MLOps Enthusiast
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+Production-Grade+AI+Systems;Specialized+in+MLOps+%26+GenAI;Transforming+Ideas+into+Scalable+Solutions)](https://git.io/typing-svg)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek-marri-49419a274/)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vivekyadavmarri@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=VIVEK-MARRI&label=Profile%20Views&color=0e75b6&style=for-the-badge)](https://github.com/VIVEK-MARRI)
-
-</div>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=VIVEK-MARRI&label=VIEWS&color=22d3ee&style=flat-square" alt="Profile views" />
+  <a href="https://www.linkedin.com/in/vivek-marri-49419a274/"><img src="https://img.shields.io/badge/LinkedIn-Connect-22d3ee?style=flat-square&logo=linkedin&logoColor=0a1220" /></a>
+  <a href="mailto:vivekyadavmarri@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-22d3ee?style=flat-square&logo=gmail&logoColor=0a1220" /></a>
+  <a href="https://vivek-marri.netlify.app"><img src="https://img.shields.io/badge/Portfolio-Visit-22d3ee?style=flat-square&logo=vercel&logoColor=0a1220" /></a>
+</p>
 
 ---
 
-##  About Me
+## Overview
 
-```python
-class VivekMarri:
-    def __init__(self):
-        self.role = "AI/ML Engineer"
-        self.focus_areas = ["MLOps", "Generative AI", "Deep Learning", "NLP"]
-        self.current_work = [
-            "Building end-to-end AI applications",
-            "Production-grade ML pipelines", 
-            "Real-time prediction systems"
-        ]
-        self.passion = "Transforming complex problems into elegant AI solutions"
-    
-    def get_expertise(self):
-        return {
-            "Machine Learning": ["PyTorch", "TensorFlow", "Scikit-learn", "XGBoost"],
-            "Generative AI": ["LangChain", "Hugging Face", "Gemini API", "RAG"],
-            "MLOps": ["MLflow", "Airflow", "Docker", "GitHub Actions"],
-            "Backend": ["FastAPI", "Flask", "Streamlit"],
-            "Databases": ["PostgreSQL", "MongoDB", "MySQL"],
-            "Cloud & DevOps": ["AWS", "Docker", "CI/CD", "Prometheus", "Grafana"]
-        }
-``` 
+I’m a B.Tech CSE graduate focused on AI/ML Engineer and Data Scientist roles. I build multi-agent and retrieval systems with production standards: tests, CI/CD, metrics, and clear limitations. My work emphasizes reliable deployment, measurable outcomes, and architecture that can be verified quickly through code, workflows, and test evidence.
 
-<div align="center">
+| | |
+|---|---|
+| **Focus** | Multi-Agent Systems · Retrieval & RAG · MLOps · Applied NLP |
+| **Seeking** | AI/ML Engineer · Data Scientist |
+| **Standard** | If it isn't backed by a test, a metric, or a commit, it doesn't go on this page. |
 
-### 🎯 Core Competencies
+---
 
-</div>
+<p align="center">
+  <img src="assets/divider-systems.png" width="100%" alt="Deployed systems" />
+</p>
 
-<table align="center">
+<table>
 <tr>
-<td align="center" width="50%">
+<td width="50%" valign="top">
 
-**🤖 AI & Machine Learning**
-- Deep Learning (CNNs, RNNs, Transformers)
-- NLP & Language Models
-- Computer Vision
-- Predictive Analytics
+### [RegIntel AI](https://github.com/VIVEK-MARRI/RegIntel-AI)
+**Delivers grounded RBI/SEBI compliance answers with citation verification and a hallucination guard.**
+
+| | |
+|---|---|
+| Retrieval | BM25 + pgvector HNSW, fused via RRF (k=60), BGE reranked |
+| Agents | LangGraph — TaskPlanner, AgentExecutionEngine, AgentMessageBus |
+| Trust layer | Citation verification + hallucination guard |
+| Security | HS256 JWT, 6 RBAC roles, 34 permissions, SHA-256 audit log |
+| Testing | 2,850+ backend tests, 80% coverage, 11-job CI pipeline |
+
+`Python` `FastAPI` `React` `PostgreSQL/pgvector` `LangGraph` `Docker`
 
 </td>
-<td align="center" width="50%">
+<td width="50%" valign="top">
 
-**⚙️ MLOps & Engineering**
-- End-to-End ML Pipelines
-- Model Deployment & Monitoring
-- Microservices Architecture
-- Real-time Systems
+### [IntelliLog AI](https://github.com/VIVEK-MARRI/IntelliLog-AI)
+**Cuts fleet delays with predictive ETA modeling and route optimization in real time.**
+
+| | |
+|---|---|
+| Prediction | XGBoost delay model with SHAP explainability |
+| Optimization | Google OR-Tools vehicle routing |
+| Agents | 10-node LangGraph decision graph, separate worker process |
+| Real-time | Redis Streams GPS → WebSocket → live fleet map |
+| Observability | Docker Compose, Prometheus, Grafana |
+
+`Python` `FastAPI` `React/TypeScript` `XGBoost` `LangGraph` `Redis`
 
 </td>
 </tr>
 </table>
 
+## Proof of Work
+
+**RegIntel AI**
+- [CI workflow (.github/workflows/ci.yml)](https://github.com/VIVEK-MARRI/RegIntel-AI/blob/main/.github/workflows/ci.yml)
+- [Benchmark workflow (.github/workflows/benchmark.yml)](https://github.com/VIVEK-MARRI/RegIntel-AI/blob/main/.github/workflows/benchmark.yml)
+- [Test suite (tests/)](https://github.com/VIVEK-MARRI/RegIntel-AI/tree/main/tests)
+- [Architecture doc (docs/architecture/01-system-architecture.md)](https://github.com/VIVEK-MARRI/RegIntel-AI/blob/main/docs/architecture/01-system-architecture.md)
+
+**IntelliLog AI**
+- [CI workflow (.github/workflows/ci.yml)](https://github.com/VIVEK-MARRI/IntelliLog-AI/blob/main/.github/workflows/ci.yml)
+- [Test workflow (.github/workflows/test.yml)](https://github.com/VIVEK-MARRI/IntelliLog-AI/blob/main/.github/workflows/test.yml)
+- [LangGraph agent module (src/agent/)](https://github.com/VIVEK-MARRI/IntelliLog-AI/tree/main/src/agent)
+- [Test suite (tests/)](https://github.com/VIVEK-MARRI/IntelliLog-AI/tree/main/tests)
+
+### Also Shipped
+
+| Project | Description | Stack |
+|---|---|---|
+| [SHL Assessment Recommendation Agent](https://github.com/VIVEK-MARRI/SHL-assessment-recommendation-agent) | Recommends role-fit SHL assessments with deterministic retrieval and production API delivery. | FastAPI, Docker |
+| [OrgPulse AI](https://github.com/VIVEK-MARRI/OrgPulse-AI) | Converts meeting transcripts into executive summaries and organization risk insights. | React, Gemini, Neo4j |
+| [CRM AI Agent](https://github.com/VIVEK-MARRI/CRM_Ai_Agent) | Automates lead scoring and analytics for faster sales prioritization. | React, Flask, FastAPI |
+| [EPMSSTS](https://github.com/VIVEK-MARRI/EPMSSTS) | Preserves emotion while translating speech across Telugu, Hindi, and English. | FastAPI, faster-whisper |
+| [Urban Flood Early Warning](https://github.com/VIVEK-MARRI/urban_flood_early_warning) | Predicts flood risk with scheduled MLOps pipelines for early warning workflows. | Airflow, XGBoost |
+| [RiskLens AI](https://github.com/VIVEK-MARRI/risklens-api) | Scores card transactions for fraud with interpretable model outputs. | Flask, Streamlit |
+
+*Earlier builds: [AI Healthcare Chatbot](https://github.com/VIVEK-MARRI/AI-health-care-chat-bot), [Language Detection (BERT)](https://github.com/VIVEK-MARRI/Language-Detection-Using-NLP), [DSA Practice Log](https://github.com/VIVEK-MARRI/DSA)*
+
 ---
 
-## 💼 Featured Projects
+<p align="center">
+  <img src="assets/divider-stack.png" width="100%" alt="Tech stack" />
+</p>
 
-<details open>
-<summary><b>🌊 Urban Flood Early Warning System</b> - Production ML Platform</summary>
-<br>
+**Languages** &nbsp; ![Python](https://img.shields.io/badge/Python-0a1220?style=flat-square&logo=python&logoColor=22D3EE) ![TypeScript](https://img.shields.io/badge/TypeScript-0a1220?style=flat-square&logo=typescript&logoColor=22D3EE) ![SQL](https://img.shields.io/badge/SQL-0a1220?style=flat-square&logo=postgresql&logoColor=22D3EE)
 
-**Enterprise-grade real-time flood risk prediction system for urban disaster management**
+**Agents & Retrieval** &nbsp; ![LangGraph](https://img.shields.io/badge/LangGraph-0a1220?style=flat-square) ![LangChain](https://img.shields.io/badge/LangChain-0a1220?style=flat-square&logo=langchain&logoColor=22D3EE) ![HuggingFace](https://img.shields.io/badge/Hugging%20Face-0a1220?style=flat-square&logo=huggingface&logoColor=22D3EE)
 
-- 🏗️ **Architecture**: Multi-service stack with Airflow orchestration, MLflow tracking, FastAPI microservices, Streamlit dashboards
-- 📊 **Tech Stack**: Python, PostgreSQL, Prometheus, Grafana, Docker
-- ⚡ **Features**: 
-  - Automated ML pipelines with live model retraining
-  - Real-time alerting and actionable insights
-  - Production monitoring and observability
-  - One-command containerized deployment for city-scale usage
+**Backend** &nbsp; ![FastAPI](https://img.shields.io/badge/FastAPI-0a1220?style=flat-square&logo=fastapi&logoColor=22D3EE) ![Flask](https://img.shields.io/badge/Flask-0a1220?style=flat-square&logo=flask&logoColor=22D3EE) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a1220?style=flat-square&logo=postgresql&logoColor=22D3EE) ![Redis](https://img.shields.io/badge/Redis-0a1220?style=flat-square&logo=redis&logoColor=22D3EE)
 
-**Impact**: Ready for production deployment in urban planning departments
+**MLOps** &nbsp; ![Docker](https://img.shields.io/badge/Docker-0a1220?style=flat-square&logo=docker&logoColor=22D3EE) ![Airflow](https://img.shields.io/badge/Airflow-0a1220?style=flat-square&logo=apacheairflow&logoColor=22D3EE) ![GitHubActions](https://img.shields.io/badge/GitHub%20Actions-0a1220?style=flat-square&logo=githubactions&logoColor=22D3EE) ![Prometheus](https://img.shields.io/badge/Prometheus-0a1220?style=flat-square&logo=prometheus&logoColor=22D3EE)
 
-</details>
+---
+
+<p align="center">
+  <img src="assets/divider-certs.png" width="100%" alt="Certifications" />
+</p>
+
+![Oracle](https://img.shields.io/badge/Oracle-Generative%20AI%20Professional-0a1220?style=flat-square&logo=oracle&logoColor=22D3EE)
+![Oracle](https://img.shields.io/badge/Oracle-Agentic%20AI%20Professional-0a1220?style=flat-square&logo=oracle&logoColor=22D3EE)
+![NVIDIA](https://img.shields.io/badge/NVIDIA-Generative%20AI-0a1220?style=flat-square&logo=nvidia&logoColor=22D3EE)
+
+---
+
+## Metrics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=VIVEK-MARRI&show_icons=true&hide_border=true&bg_color=0a1220&title_color=22d3ee&icon_color=6366f1&text_color=c8d6ee" width="49%" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VIVEK-MARRI&layout=compact&hide_border=true&bg_color=0a1220&title_color=22d3ee&text_color=c8d6ee" width="38%" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=VIVEK-MARRI&hide_border=true&background=0a1220&stroke=1c2b45&ring=22d3ee&fire=6366f1&currStreakNum=f1f6ff&sideNums=c8d6ee&currStreakLabel=22d3ee&sideLabels=8fa5c9&dates=4b6485" width="70%" alt="Contribution streak" />
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/footer.png" width="100%" alt="Footer" />
+</p>
 
 <details>
-<summary><b>🚚 IntelliLog-AI</b> - Intelligent Logistics Optimization</summary>
-<br>
+<summary><b>Plain-text summary</b></summary>
 
-**Real-time optimization platform for urban delivery fleet management**
+Vivek Marri
+Role: AI/ML Engineer focused on multi-agent systems, retrieval, and MLOps
+Education: B.Tech CSE, JNTUH University College of Engineering, Manthani
 
-- 🎯 **Core ML**: XGBoost-based ETA prediction with high accuracy
-- 🗺️ **Optimization**: Google OR-Tools for Vehicle Routing Problem (VRP)
-- 🔧 **Backend**: High-throughput FastAPI microservices
-- 📦 **Deployment**: Fully containerized with Docker
-- 📈 **Results**: ~25% reduction in delivery delays through custom routing heuristics
+Certifications:
+Oracle Generative AI Professional
+Oracle Agentic AI Professional
+NVIDIA Generative AI
 
-**Impact**: Scalable solution for logistics companies optimizing last-mile delivery
+Projects:
+RegIntel AI
+One-line: Multi-agent regulatory intelligence system for RBI/SEBI compliance with grounded, citation-backed answers.
+Tech stack: Python, FastAPI, React, PostgreSQL, pgvector, LangGraph, Docker
 
-</details>
+IntelliLog AI
+One-line: Predictive logistics platform for fleet delay forecasting, route optimization, and live operations visibility.
+Tech stack: Python, FastAPI, React, TypeScript, XGBoost, LangGraph, Redis, OR-Tools, Prometheus, Grafana
 
-<details>
-<summary><b>🌱 EcoPackAI</b> - Sustainable Packaging Recommender</summary>
-<br>
+SHL Assessment Recommendation Agent
+One-line: Deterministic RAG service that recommends SHL assessments and exposes a production API.
+Tech stack: FastAPI, Docker
 
-**AI-powered system for sustainable and cost-effective packaging material recommendations**
+OrgPulse AI
+One-line: Transforms meeting transcripts into executive summaries and organizational risk signals.
+Tech stack: React, Gemini, Neo4j
 
-- 🧠 **ML Features**: Product attributes analysis, environmental metrics optimization
-- 💚 **Focus Areas**: CO₂ impact, recyclability, mechanical strength, cost efficiency
-- 🛠️ **Stack**: Python, PostgreSQL, SQLAlchemy, FastAPI/Flask
-- 📊 **Capabilities**: 
-  - Machine learning-based recommendations
-  - RESTful API for integration
-  - Interactive dashboards
-  - Real-world dataset integration
+CRM AI Agent
+One-line: Automates lead scoring and sales analytics workflows.
+Tech stack: React, Flask, FastAPI
 
-**Impact**: Helping businesses make environmentally conscious packaging decisions
+EPMSSTS
+One-line: Emotion-preserving multilingual speech translation across Telugu, Hindi, and English.
+Tech stack: FastAPI, faster-whisper
 
-</details>
+Urban Flood Early Warning
+One-line: Flood-risk prediction pipeline with orchestration for early warning operations.
+Tech stack: Airflow, XGBoost
 
-<details>
-<summary><b>🔐 RiskLens AI</b> - Fraud Detection System</summary>
-<br>
+RiskLens AI
+One-line: Fraud detection API with interpretable model outputs for transaction risk scoring.
+Tech stack: Flask, Streamlit
 
-**Advanced fraud detection for credit card transactions with explainable AI**
+AI Healthcare Chatbot
+One-line: Conversational assistant for healthcare information support.
+Tech stack: Python, Flask, NLP
 
-- 🤖 **Model**: Random Forest with optimized hyperparameters
-- 🔍 **Explainability**: SHAP integration for transparent decision-making
-- 🌐 **Interface**: Flask API + Streamlit dashboard
-- 📊 **Features**: Real-time scoring, risk visualization, interpretable predictions
+Language Detection Using NLP
+One-line: BERT-based system for multilingual language identification.
+Tech stack: Python, BERT, NLP
 
-**Impact**: Production-ready fraud prevention with trustworthy AI explanations
-
-</details>
-
-<details>
-<summary><b>🏥 AI HealthCare Chatbot</b> - Medical Query Assistant</summary>
-<br>
-
-**Intelligent conversational AI for healthcare information**
-
-- 💬 **NLP Engine**: Advanced natural language understanding
-- 🔧 **Framework**: Flask-based REST API
-- 🎯 **Purpose**: Medical query assistance and information retrieval
-- ⚕️ **Domain**: Healthcare-specific knowledge base
+DSA Practice Log
+One-line: Repository of algorithm and data structure practice solutions.
+Tech stack: C++, Java, Python
 
 </details>
-
-<details>
-<summary><b>🌐 Language Detection System</b> - BERT-based NLP</summary>
-<br>
-
-**Multi-language detection and classification using transformer models**
-
-- 🧠 **Model**: Fine-tuned BERT architecture
-- 🔤 **Capabilities**: Multi-language support with high accuracy
-- 📚 **Use Cases**: Content classification, language routing, text analysis
-
-</details>
-
-<details>
-<summary><b>💡 INSIGHT_BOT</b> - Generative AI Assistant</summary>
-<br>
-
-**Next-generation AI assistant powered by cutting-edge GenAI**
-
-- 🚀 **Framework**: LangChain for advanced orchestration
-- 🤖 **LLM**: Google Gemini API integration
-- 🎨 **Interface**: Interactive Streamlit web application
-- ⚡ **Features**: Contextual conversations, multi-turn dialogue, intelligent responses
-
-</details>
-
-<details>
-<summary><b>📊 DSA Mastery Repository</b> - Algorithm Practice</summary>
-<br>
-
-**Daily problem-solving and algorithm implementation**
-
-- 📚 **Coverage**: Arrays, Graphs, Trees, Dynamic Programming, Greedy Algorithms
-- 💪 **Practice**: Consistent problem-solving to maintain sharp coding skills
-- 🎯 **Goal**: Master data structures and algorithmic thinking
-
-</details>
-
----
-
-## 🛠️ Technology Stack
-
-<div align="center">
-
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-
-### AI/ML Frameworks
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge&logo=xgboost&logoColor=white)
-
-### Generative AI & NLP
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)
-
-### MLOps & DevOps
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-
-### Backend & APIs
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-
-### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-### Cloud & Tools
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</div>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  
-<img src="https://github-readme-stats.vercel.app/api?username=VIVEK-MARRI&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=C9D1D9" alt="GitHub Stats" height="180"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VIVEK-MARRI&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=C9D1D9" alt="Top Languages" height="180"/>
-
-<img src="https://streak-stats.demolab.com?user=VIVEK-MARRI&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak"/>
-
-</div>
-
----
-
-## 🎯 Current Focus
-
-<div align="center">
-
-```mermaid
-mindmap
-  root((Vivek's Focus))
-    Generative AI
-      Multi-modal AI
-      RAG Systems
-      LLM Fine-tuning
-    MLOps
-      Production Pipelines
-      Model Monitoring
-      Scalable Deployment
-    Open Source
-      Contributing to ML/NLP
-      Building Tools
-      Knowledge Sharing
-    Problem Solving
-      DSA Mastery
-      System Design
-      Optimization
-```
-
-</div>
-
-- 🚀 Building production-grade **Generative AI applications** (text, image, multi-modal)
-- 🏗️ Designing **scalable MLOps pipelines** for enterprise deployment
-- 🤝 Contributing to **open-source ML/NLP projects**
-- 💡 Creating **AI-powered solutions** for real-world problems
-- 📚 Continuous learning: **Advanced LLMs, System Design, Cloud Architecture**
-
----
-
-## 🏆 Achievements & Highlights
-
-- ✅ Built **end-to-end ML systems** from research to production
-- ✅ Achieved **~25% efficiency improvement** in logistics optimization
-- ✅ Implemented **production-grade MLOps** infrastructure with monitoring
-- ✅ Developed **explainable AI systems** for critical applications
-- ✅ Consistent **problem-solving practice** for algorithmic excellence
-
----
-
-## 🐍 Contribution Activity
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VIVEK-MARRI/VIVEK-MARRI/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VIVEK-MARRI/VIVEK-MARRI/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/VIVEK-MARRI/VIVEK-MARRI/output/github-contribution-grid-snake.svg">
-</picture>
-
-</div>
-
----
-
-## 💬 Let's Connect
-
-<div align="center">
-
-I'm always interested in collaborating on innovative AI projects, discussing ML research, or exploring new opportunities!
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek-marri-49419a274/)
-[![Email](https://img.shields.io/badge/Email-Drop_a_Message-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vivekyadavmarri@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VIVEK-MARRI)
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=fff&animation=twinkling&fontAlignY=65"/>
-
-### ⭐ "AI won't replace humans, but humans with AI will replace humans without it." ⭐
-
-</div>
