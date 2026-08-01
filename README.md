@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Vivek Marri
+# Hi, I'm Vivek Marri
 
 ### AI/ML Engineer | Generative AI Specialist | MLOps Enthusiast
 
@@ -41,7 +41,7 @@ class VivekMarri:
 
 <div align="center">
 
-### 🎯 Core Competencies
+### Core Competencies
 
 </div>
 
@@ -49,7 +49,7 @@ class VivekMarri:
 <tr>
 <td align="center" width="50%">
 
-**🤖 AI & Machine Learning**
+**AI & Machine Learning**
 - Deep Learning (CNNs, RNNs, Transformers)
 - NLP & Language Models
 - Computer Vision
@@ -58,7 +58,7 @@ class VivekMarri:
 </td>
 <td align="center" width="50%">
 
-**⚙️ MLOps & Engineering**
+**MLOps & Engineering**
 - End-to-End ML Pipelines
 - Model Deployment & Monitoring
 - Microservices Architecture
@@ -70,17 +70,17 @@ class VivekMarri:
 
 ---
 
-## 💼 Featured Projects
+## Featured Projects
 
 <details open>
-<summary><b>🌊 Urban Flood Early Warning System</b> - Production ML Platform</summary>
+<summary><b>Urban Flood Early Warning System</b> - Production ML Platform</summary>
 <br>
 
 **Enterprise-grade real-time flood risk prediction system for urban disaster management**
 
-- 🏗️ **Architecture**: Multi-service stack with Airflow orchestration, MLflow tracking, FastAPI microservices, Streamlit dashboards
-- 📊 **Tech Stack**: Python, PostgreSQL, Prometheus, Grafana, Docker
-- ⚡ **Features**: 
+- **Architecture**: Multi-service stack with Airflow orchestration, MLflow tracking, FastAPI microservices, Streamlit dashboards
+- **Tech Stack**: Python, PostgreSQL, Prometheus, Grafana, Docker
+- **Features**: 
   - Automated ML pipelines with live model retraining
   - Real-time alerting and actionable insights
   - Production monitoring and observability
@@ -91,31 +91,31 @@ class VivekMarri:
 </details>
 
 <details>
-<summary><b>🚚 IntelliLog-AI</b> - Intelligent Logistics Optimization</summary>
+<summary><b>IntelliLog-AI</b> - Intelligent Logistics Optimization</summary>
 <br>
 
 **Real-time optimization platform for urban delivery fleet management**
 
-- 🎯 **Core ML**: XGBoost-based ETA prediction with high accuracy
-- 🗺️ **Optimization**: Google OR-Tools for Vehicle Routing Problem (VRP)
-- 🔧 **Backend**: High-throughput FastAPI microservices
-- 📦 **Deployment**: Fully containerized with Docker
-- 📈 **Results**: ~25% reduction in delivery delays through custom routing heuristics
+- **Core ML**: XGBoost-based ETA prediction with high accuracy
+- **Optimization**: Google OR-Tools for Vehicle Routing Problem (VRP)
+- **Backend**: High-throughput FastAPI microservices
+- **Deployment**: Fully containerized with Docker
+- **Results**: ~25% reduction in delivery delays through custom routing heuristics
 
 **Impact**: Scalable solution for logistics companies optimizing last-mile delivery
 
 </details>
 
 <details>
-<summary><b>🌱 EcoPackAI</b> - Sustainable Packaging Recommender</summary>
+<summary><b>EcoPackAI</b> - Sustainable Packaging Recommender</summary>
 <br>
 
 **AI-powered system for sustainable and cost-effective packaging material recommendations**
 
-- 🧠 **ML Features**: Product attributes analysis, environmental metrics optimization
-- 💚 **Focus Areas**: CO₂ impact, recyclability, mechanical strength, cost efficiency
-- 🛠️ **Stack**: Python, PostgreSQL, SQLAlchemy, FastAPI/Flask
-- 📊 **Capabilities**: 
+- **ML Features**: Product attributes analysis, environmental metrics optimization
+- **Focus Areas**: CO₂ impact, recyclability, mechanical strength, cost efficiency
+- **Stack**: Python, PostgreSQL, SQLAlchemy, FastAPI/Flask
+- **Capabilities**: 
   - Machine learning-based recommendations
   - RESTful API for integration
   - Interactive dashboards
@@ -126,73 +126,73 @@ class VivekMarri:
 </details>
 
 <details>
-<summary><b>🔐 RiskLens AI</b> - Fraud Detection System</summary>
+<summary><b>RiskLens AI</b> - Fraud Detection System</summary>
 <br>
 
 **Advanced fraud detection for credit card transactions with explainable AI**
 
-- 🤖 **Model**: Random Forest with optimized hyperparameters
-- 🔍 **Explainability**: SHAP integration for transparent decision-making
-- 🌐 **Interface**: Flask API + Streamlit dashboard
-- 📊 **Features**: Real-time scoring, risk visualization, interpretable predictions
+- **Model**: Random Forest with optimized hyperparameters
+- **Explainability**: SHAP integration for transparent decision-making
+- **Interface**: Flask API + Streamlit dashboard
+- **Features**: Real-time scoring, risk visualization, interpretable predictions
 
 **Impact**: Production-ready fraud prevention with trustworthy AI explanations
 
 </details>
 
 <details>
-<summary><b>🏥 AI HealthCare Chatbot</b> - Medical Query Assistant</summary>
+<summary><b>AI HealthCare Chatbot</b> - Medical Query Assistant</summary>
 <br>
 
 **Intelligent conversational AI for healthcare information**
 
-- 💬 **NLP Engine**: Advanced natural language understanding
-- 🔧 **Framework**: Flask-based REST API
-- 🎯 **Purpose**: Medical query assistance and information retrieval
-- ⚕️ **Domain**: Healthcare-specific knowledge base
+- **NLP Engine**: Advanced natural language understanding
+- **Framework**: Flask-based REST API
+- **Purpose**: Medical query assistance and information retrieval
+- **Domain**: Healthcare-specific knowledge base
 
 </details>
 
 <details>
-<summary><b>🌐 Language Detection System</b> - BERT-based NLP</summary>
+<summary><b>Language Detection System</b> - BERT-based NLP</summary>
 <br>
 
 **Multi-language detection and classification using transformer models**
 
-- 🧠 **Model**: Fine-tuned BERT architecture
-- 🔤 **Capabilities**: Multi-language support with high accuracy
-- 📚 **Use Cases**: Content classification, language routing, text analysis
+- **Model**: Fine-tuned BERT architecture
+- **Capabilities**: Multi-language support with high accuracy
+- **Use Cases**: Content classification, language routing, text analysis
 
 </details>
 
 <details>
-<summary><b>💡 INSIGHT_BOT</b> - Generative AI Assistant</summary>
+<summary><b>INSIGHT_BOT</b> - Generative AI Assistant</summary>
 <br>
 
 **Next-generation AI assistant powered by cutting-edge GenAI**
 
-- 🚀 **Framework**: LangChain for advanced orchestration
-- 🤖 **LLM**: Google Gemini API integration
-- 🎨 **Interface**: Interactive Streamlit web application
-- ⚡ **Features**: Contextual conversations, multi-turn dialogue, intelligent responses
+- **Framework**: LangChain for advanced orchestration
+- **LLM**: Google Gemini API integration
+- **Interface**: Interactive Streamlit web application
+- **Features**: Contextual conversations, multi-turn dialogue, intelligent responses
 
 </details>
 
 <details>
-<summary><b>📊 DSA Mastery Repository</b> - Algorithm Practice</summary>
+<summary><b>DSA Mastery Repository</b> - Algorithm Practice</summary>
 <br>
 
 **Daily problem-solving and algorithm implementation**
 
-- 📚 **Coverage**: Arrays, Graphs, Trees, Dynamic Programming, Greedy Algorithms
-- 💪 **Practice**: Consistent problem-solving to maintain sharp coding skills
-- 🎯 **Goal**: Master data structures and algorithmic thinking
+- **Coverage**: Arrays, Graphs, Trees, Dynamic Programming, Greedy Algorithms
+- **Practice**: Consistent problem-solving to maintain sharp coding skills
+- **Goal**: Master data structures and algorithmic thinking
 
 </details>
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 <div align="center">
 
@@ -242,7 +242,7 @@ class VivekMarri:
 
 ---
 
-## 📊 GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
   
@@ -255,7 +255,7 @@ class VivekMarri:
 
 ---
 
-## 🎯 Current Focus
+## Current Focus
 
 <div align="center">
 
@@ -282,25 +282,25 @@ mindmap
 
 </div>
 
-- 🚀 Building production-grade **Generative AI applications** (text, image, multi-modal)
-- 🏗️ Designing **scalable MLOps pipelines** for enterprise deployment
-- 🤝 Contributing to **open-source ML/NLP projects**
-- 💡 Creating **AI-powered solutions** for real-world problems
-- 📚 Continuous learning: **Advanced LLMs, System Design, Cloud Architecture**
+- Building production-grade **Generative AI applications** (text, image, multi-modal)
+- Designing **scalable MLOps pipelines** for enterprise deployment
+- Contributing to **open-source ML/NLP projects**
+- Creating **AI-powered solutions** for real-world problems
+- Continuous learning: **Advanced LLMs, System Design, Cloud Architecture**
 
 ---
 
-## 🏆 Achievements & Highlights
+## Achievements & Highlights
 
-- ✅ Built **end-to-end ML systems** from research to production
-- ✅ Achieved **~25% efficiency improvement** in logistics optimization
-- ✅ Implemented **production-grade MLOps** infrastructure with monitoring
-- ✅ Developed **explainable AI systems** for critical applications
-- ✅ Consistent **problem-solving practice** for algorithmic excellence
+- Built **end-to-end ML systems** from research to production
+- Achieved **~25% efficiency improvement** in logistics optimization
+- Implemented **production-grade MLOps** infrastructure with monitoring
+- Developed **explainable AI systems** for critical applications
+- Consistent **problem-solving practice** for algorithmic excellence
 
 ---
 
-## 🐍 Contribution Activity
+## Contribution Activity
 
 <div align="center">
 
@@ -314,7 +314,7 @@ mindmap
 
 ---
 
-## 💬 Let's Connect
+## Let's Connect
 
 <div align="center">
 
@@ -328,6 +328,6 @@ I'm always interested in collaborating on innovative AI projects, discussing ML 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=fff&animation=twinkling&fontAlignY=65"/>
 
-### ⭐ "AI won't replace humans, but humans with AI will replace humans without it." ⭐
+### "AI won't replace humans, but humans with AI will replace humans without it."
 
 </div>
