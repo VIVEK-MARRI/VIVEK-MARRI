@@ -1,0 +1,174 @@
+<svg width="1400" height="360" viewBox="0 0 1400 360" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060a12"/>
+      <stop offset="1" stop-color="#0a1220"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#111c30" stroke-width="1"/>
+    </pattern>
+    <filter id="coreGlow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="pGlow" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <path id="ppath0" d="M 355.8 180.2 L 225 190" fill="none"/><path id="ppath1" d="M 354.3 250.2 L 225 190" fill="none"/><path id="ppath2" d="M 338.1 277.0 L 225 190" fill="none"/><path id="ppath3" d="M 253.7 342.8 L 225 190" fill="none"/><path id="ppath4" d="M 146.0 337.9 L 225 190" fill="none"/><path id="ppath5" d="M 115.9 239.1 L 225 190" fill="none"/><path id="ppath6" d="M 107.3 234.6 L 225 190" fill="none"/><path id="ppath7" d="M 61.9 178.6 L 225 190" fill="none"/><path id="ppath8" d="M 133.7 117.8 L 225 190" fill="none"/><path id="ppath9" d="M 184.1 65.5 L 225 190" fill="none"/><path id="ppath10" d="M 238.9 69.5 L 225 190" fill="none"/><path id="ppath11" d="M 299.8 66.8 L 225 190" fill="none"/><path id="ppath12" d="M 357.1 146.6 L 225 190" fill="none"/>
+    
+  </defs>
+
+  <rect width="1400" height="360" fill="url(#bgGrad)"/>
+  <rect width="1400" height="360" fill="url(#grid)" opacity="0.55"/>
+  <rect x="4" y="4" width="1392" height="352" fill="none" stroke="#1c2b45" stroke-width="1"/>
+
+  <!-- top status bar -->
+  <rect x="4" y="4" width="1392" height="34" fill="#0d1626"/>
+  <rect x="4" y="4" width="1392" height="34" fill="none" stroke="#1c2b45" stroke-width="1"/>
+  <text x="26" y="26" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="2" fill="#4b6485">SIGNAL SYNTHESIS ENGINE</text>
+  <text x="1374" y="26" font-family="'JetBrains Mono', monospace" font-size="11" letter-spacing="1" fill="#3b6ea5" text-anchor="end">CONTINUOUS</text>
+
+  <!-- converging particles -->
+  <g>
+    <circle r="3.3" fill="#6366f1" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.003;0.018;0.16;0.172;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.0030;0.1720;1" calcMode="linear">
+      <mpath href="#ppath0" xlink:href="#ppath0"/>
+    </animateMotion>
+  </circle><circle r="2.8" fill="#6366f1" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.018;0.033;0.139;0.151;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.0180;0.1510;1" calcMode="linear">
+      <mpath href="#ppath1" xlink:href="#ppath1"/>
+    </animateMotion>
+  </circle><circle r="3.3" fill="#67e8f9" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.003;0.018;0.125;0.137;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.0030;0.1370;1" calcMode="linear">
+      <mpath href="#ppath2" xlink:href="#ppath2"/>
+    </animateMotion>
+  </circle><circle r="2.7" fill="#67e8f9" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.008;0.023;0.133;0.145;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.0080;0.1450;1" calcMode="linear">
+      <mpath href="#ppath3" xlink:href="#ppath3"/>
+    </animateMotion>
+  </circle><circle r="3.5" fill="#6366f1" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.014;0.029;0.167;0.179;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.0140;0.1790;1" calcMode="linear">
+      <mpath href="#ppath4" xlink:href="#ppath4"/>
+    </animateMotion>
+  </circle><circle r="3.1" fill="#6366f1" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.01;0.025;0.18;0.192;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.0100;0.1920;1" calcMode="linear">
+      <mpath href="#ppath5" xlink:href="#ppath5"/>
+    </animateMotion>
+  </circle><circle r="3.6" fill="#67e8f9" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.029;0.044;0.166;0.178;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.0290;0.1780;1" calcMode="linear">
+      <mpath href="#ppath6" xlink:href="#ppath6"/>
+    </animateMotion>
+  </circle><circle r="3.9" fill="#22d3ee" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.013;0.028;0.169;0.181;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.0130;0.1810;1" calcMode="linear">
+      <mpath href="#ppath7" xlink:href="#ppath7"/>
+    </animateMotion>
+  </circle><circle r="3.9" fill="#6366f1" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.007;0.022;0.129;0.141;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.0070;0.1410;1" calcMode="linear">
+      <mpath href="#ppath8" xlink:href="#ppath8"/>
+    </animateMotion>
+  </circle><circle r="3.4" fill="#67e8f9" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.02;0.035;0.157;0.169;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.0200;0.1690;1" calcMode="linear">
+      <mpath href="#ppath9" xlink:href="#ppath9"/>
+    </animateMotion>
+  </circle><circle r="2.7" fill="#67e8f9" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.024;0.039;0.19;0.202;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.0240;0.2020;1" calcMode="linear">
+      <mpath href="#ppath10" xlink:href="#ppath10"/>
+    </animateMotion>
+  </circle><circle r="3.7" fill="#67e8f9" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.031;0.046;0.181;0.193;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.0310;0.1930;1" calcMode="linear">
+      <mpath href="#ppath11" xlink:href="#ppath11"/>
+    </animateMotion>
+  </circle><circle r="3.5" fill="#67e8f9" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.004;0.019;0.181;0.193;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.0040;0.1930;1" calcMode="linear">
+      <mpath href="#ppath12" xlink:href="#ppath12"/>
+    </animateMotion>
+  </circle>
+  </g>
+
+  <!-- core -->
+  <circle cx="225" cy="190" r="0" fill="#0f1b2f" stroke="#22d3ee" stroke-width="2" filter="url(#coreGlow)">
+    <animate attributeName="r" values="0;0;32;44;30;30;0;0" keyTimes="0;0.16;0.2;0.22;0.25;0.95;0.99;1" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="225" cy="190" r="0" fill="none" stroke="#6366f1" stroke-width="1.4" opacity="0.7">
+    <animate attributeName="r" values="0;0;30;58;30;30;0;0" keyTimes="0;0.18;0.22;0.3;0.36;0.9;0.99;1" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.7;0;0.7;0.7;0;0" keyTimes="0;0.18;0.22;0.3;0.36;0.9;0.99;1" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- identity text, resolves after core forms -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.24;0.28;0.95;1" dur="10s" repeatCount="indefinite"/>
+    <text x="300" y="165" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="3" fill="#4b6485">SYNTHESIZED IDENTITY</text>
+    <text x="300" y="212" font-family="Arial, sans-serif" font-size="42" font-weight="800" fill="#f1f6ff">VIVEK MARRI</text>
+    <text x="300" y="242" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#60a5fa">AGENTIC AI ENGINEER &#8212; AI SYSTEMS DESIGN</text>
+    <text x="300" y="270" font-family="Arial, sans-serif" font-size="13.5" fill="#8fa5c9">B.Tech CSE, JNTUH &#183; Open to AI/ML Engineer &amp; Data Scientist roles</text>
+  </g>
+
+  <!-- satellite capability lines + chips + pulses -->
+  <g>
+    <path id="sline0" d="M 470 190 L 1120 75" fill="none" stroke="#22314c" stroke-width="1.3"
+      stroke-dasharray="660.1" stroke-dashoffset="660.1">
+    <animate attributeName="stroke-dashoffset" values="660.1;660.1;0;0;660.1" keyTimes="0;0.3300;0.3800;0.95;1" dur="10s" repeatCount="indefinite"/>
+  </path><path id="sline1" d="M 470 190 L 1310 150" fill="none" stroke="#22314c" stroke-width="1.3"
+      stroke-dasharray="841.0" stroke-dashoffset="841.0">
+    <animate attributeName="stroke-dashoffset" values="841.0;841.0;0;0;841.0" keyTimes="0;0.3500;0.4000;0.95;1" dur="10s" repeatCount="indefinite"/>
+  </path><path id="sline2" d="M 470 190 L 1310 235" fill="none" stroke="#22314c" stroke-width="1.3"
+      stroke-dasharray="841.2" stroke-dashoffset="841.2">
+    <animate attributeName="stroke-dashoffset" values="841.2;841.2;0;0;841.2" keyTimes="0;0.3700;0.4200;0.95;1" dur="10s" repeatCount="indefinite"/>
+  </path><path id="sline3" d="M 470 190 L 1120 305" fill="none" stroke="#22314c" stroke-width="1.3"
+      stroke-dasharray="660.1" stroke-dashoffset="660.1">
+    <animate attributeName="stroke-dashoffset" values="660.1;660.1;0;0;660.1" keyTimes="0;0.3900;0.4400;0.95;1" dur="10s" repeatCount="indefinite"/>
+  </path>
+    <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3850;0.4050;0.95;1" dur="10s" repeatCount="indefinite"/>
+    <circle cx="1120" cy="75" r="5" fill="#0f1b2f" stroke="#22d3ee" stroke-width="1.6"/>
+    <text x="1132" y="79" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="1.5" fill="#c8d6ee" text-anchor="start">AGENTIC AI</text>
+  </g><g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4050;0.4250;0.95;1" dur="10s" repeatCount="indefinite"/>
+    <circle cx="1310" cy="150" r="5" fill="#0f1b2f" stroke="#22d3ee" stroke-width="1.6"/>
+    <text x="1298" y="154" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="1.5" fill="#c8d6ee" text-anchor="end">RETRIEVAL &amp; RAG</text>
+  </g><g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4250;0.4450;0.95;1" dur="10s" repeatCount="indefinite"/>
+    <circle cx="1310" cy="235" r="5" fill="#0f1b2f" stroke="#22d3ee" stroke-width="1.6"/>
+    <text x="1298" y="239" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="1.5" fill="#c8d6ee" text-anchor="end">MLOPS</text>
+  </g><g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4450;0.4650;0.95;1" dur="10s" repeatCount="indefinite"/>
+    <circle cx="1120" cy="305" r="5" fill="#0f1b2f" stroke="#22d3ee" stroke-width="1.6"/>
+    <text x="1132" y="309" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="1.5" fill="#c8d6ee" text-anchor="start">LLMS</text>
+  </g>
+    <circle r="4" fill="#22d3ee" opacity="0" filter="url(#pGlow)">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3850;0.3900;0.95;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="1.4s" begin="3.8499999999999996s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+      <mpath href="#sline0" xlink:href="#sline0"/>
+    </animateMotion>
+  </circle><circle r="4" fill="#22d3ee" opacity="0" filter="url(#pGlow)">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4050;0.4100;0.95;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="1.4s" begin="4.05s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+      <mpath href="#sline1" xlink:href="#sline1"/>
+    </animateMotion>
+  </circle><circle r="4" fill="#22d3ee" opacity="0" filter="url(#pGlow)">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4250;0.4300;0.95;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="1.4s" begin="4.25s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+      <mpath href="#sline2" xlink:href="#sline2"/>
+    </animateMotion>
+  </circle><circle r="4" fill="#22d3ee" opacity="0" filter="url(#pGlow)">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4450;0.4500;0.95;1" dur="10s" repeatCount="indefinite"/>
+    <animateMotion dur="1.4s" begin="4.45s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+      <mpath href="#sline3" xlink:href="#sline3"/>
+    </animateMotion>
+  </circle>
+  </g>
+</svg>
