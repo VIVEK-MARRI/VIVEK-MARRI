@@ -2,14 +2,14 @@
   <img src="assets/system-header-animated.svg" width="100%" alt="Vivek Marri — signal synthesis intro" />
 </p>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=22D3EE&center=true&vCenter=true&width=850&lines=Agentic+AI+Engineer;AI+Systems+Designer;Building+Multi-Agent+Architectures;Turning+Retrieval+Into+Reasoning;Verified+via+output%2C+not+prose." alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=22D3EE&center=true&vCenter=true&width=850&lines=Agentic+AI+Engineer;AI+Systems+Designer;Bui[...]" />
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=VIVEK-MARRI&label=VIEWS&color=22d3ee&style=flat-square" alt="Profile views" />
   <a href="https://www.linkedin.com/in/vivek-marri-49419a274/"><img src="https://img.shields.io/badge/LinkedIn-Connect-22d3ee?style=flat-square&logo=linkedin&logoColor=0a1220" /></a>
   <a href="mailto:vivekyadavmarri@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-22d3ee?style=flat-square&logo=gmail&logoColor=0a1220" /></a>
-  <a href="https://vivek-marri.netlify.app"><img src="https://img.shields.io/badge/Portfolio-Visit-22d3ee?style=flat-square&logo=vercel&logoColor=0a1220" /></a>
+  <a href="https://vivek-portfolio-seven-sable.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-22d3ee?style=flat-square&logo=vercel&logoColor=0a1220" /></a>
 </p>
 
 <br/>
@@ -18,7 +18,7 @@
   <img src="assets/divider-about.png" width="100%" alt="About Me" />
 </p>
 
-I'm a B.Tech CSE graduate from JNTUH University College of Engineering, Manthani, currently looking for AI/ML Engineer and Data Science roles. I build multi-agent and retrieval systems the way I'd build any production backend — with real test suites, CI enforcement, and an honest limitations section, not just a notebook that worked once.
+I'm a B.Tech CSE graduate from JNTUH University College of Engineering, Manthani, currently looking for AI/ML Engineer and Data Science roles. I build multi-agent and retrieval systems the way I'd[...]
 
 <p align="center">
   <img src="assets/about-animated.svg" width="100%" alt="Agent boot sequence and live message bus" />
@@ -112,7 +112,7 @@ End-to-End ML Pipelines
 
 | Project | Description | Stack |
 |---|---|---|
-| [SHL Assessment Recommendation Agent](https://github.com/VIVEK-MARRI/SHL-assessment-recommendation-agent) | Deterministic RAG agent for SHL test recommendations. Live on Railway, 375 passing tests. | FastAPI, Docker |
+| [SHL Assessment Recommendation Agent](https://github.com/VIVEK-MARRI/SHL-assessment-recommendation-agent) | Deterministic RAG agent for SHL test recommendations. Live on Railway, 375 passing te[...]
 | [OrgPulse AI](https://github.com/VIVEK-MARRI/OrgPulse-AI) | Meeting transcripts → executive summaries and org risk signals. | React, Gemini, Neo4j |
 | [CRM AI Agent](https://github.com/VIVEK-MARRI/CRM_Ai_Agent) | Automated lead scoring and analytics. | React, Flask, FastAPI |
 | [EPMSSTS](https://github.com/VIVEK-MARRI/EPMSSTS) | Emotion-preserving speech translation — Telugu, Hindi, English. | FastAPI, faster-whisper |
@@ -121,7 +121,7 @@ End-to-End ML Pipelines
 | [RiskLens AI](https://github.com/VIVEK-MARRI/risklens-api) | Explainable fraud-scoring API — Random Forest + SHAP. | Flask, Streamlit |
 | [Insight Bot](https://github.com/VIVEK-MARRI/INSIGHT_BOT) | GenAI assistant for QA over PDFs, websites, images, audio. | LangChain, Gemini API |
 
-*Earlier builds: [AI Healthcare Chatbot](https://github.com/VIVEK-MARRI/AI-health-care-chat-bot), [Language Detection (BERT)](https://github.com/VIVEK-MARRI/Language-Detection-Using-NLP), [DSA Practice Log](https://github.com/VIVEK-MARRI/DSA)*
+*Earlier builds: [AI Healthcare Chatbot](https://github.com/VIVEK-MARRI/AI-health-care-chat-bot), [Language Detection (BERT)](https://github.com/VIVEK-MARRI/Language-Detection-Using-NLP), [DSA Pr[...]
 
 <br/>
 
@@ -186,8 +186,8 @@ End-to-End ML Pipelines
 
 <div align="center">
   
-<img src="https://github-readme-stats.vercel.app/api?username=VIVEK-MARRI&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=C9D1D9" alt="GitHub Stats" height="180"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VIVEK-MARRI&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=C9D1D9" alt="Top Languages" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=VIVEK-MARRI&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=C9D1D9"[...]>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VIVEK-MARRI&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=C9D1D9" alt="To[...]
 
 <img src="https://streak-stats.demolab.com?user=VIVEK-MARRI&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak"/>
 
@@ -215,6 +215,6 @@ End-to-End ML Pipelines
 
 <p align="center">
 <a href="https://www.linkedin.com/in/vivek-marri-49419a274/"><img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-22d3ee?style=for-the-badge&logo=linkedin&logoColor=0a1220" /></a>
-<a href="mailto:vivekyadavmarri@gmail.com"><img src="https://img.shields.io/badge/Email-Drop_a_Message-22d3ee?style=for-the-badge&logo=gmail&logoColor=0a1220" /></a>
-<a href="https://github.com/VIVEK-MARRI"><img src="https://img.shields.io/badge/GitHub-Follow-22d3ee?style=for-the-badge&logo=github&logoColor=0a1220" /></a>
+<a href="mailto:vivekyadavmarri@gmail.com"><img src="https://img.shields.io/badge/Email-Drop_a_Message-22d3ee?style=for-the-badge&logo=gmail&logoColor=22D3EE" /></a>
+<a href="https://github.com/VIVEK-MARRI"><img src="https://img.shields.io/badge/GitHub-Follow-22d3ee?style=for-the-badge&logo=github&logoColor=22D3EE" /></a>
 </p>
