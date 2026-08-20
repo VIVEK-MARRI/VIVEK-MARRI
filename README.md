@@ -2,7 +2,7 @@
   <img src="assets/system-header-animated.svg" width="100%" alt="Vivek Marri — signal synthesis intro" />
 </p>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=22D3EE&center=true&vCenter=true&width=850&lines=Agentic+AI+Engineer;AI+Systems+Designer;Bui[...]" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=22D3EE&center=true&vCenter=true&width=850&lines=Agentic+AI+Engineer;AI+Systems+Designer;Building+Reliable+RAG+%26+Multi-Agent+Systems;FastAPI+%7C+LangGraph+%7C+PostgreSQL+%7C+Docker" alt="Typing banner" />
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
   <img src="assets/divider-about.png" width="100%" alt="About Me" />
 </p>
 
-I'm a B.Tech CSE graduate from JNTUH University College of Engineering, Manthani, currently looking for AI/ML Engineer and Data Science roles. I build multi-agent and retrieval systems the way I'd[...]
+I'm a B.Tech CSE graduate from JNTUH University College of Engineering, Manthani, currently looking for AI/ML Engineer and Data Science roles. I build multi-agent and retrieval systems the way I'd build production infrastructure: measurable, testable, and failure-aware.
 
 <p align="center">
   <img src="assets/about-animated.svg" width="100%" alt="Agent boot sequence and live message bus" />
@@ -112,7 +112,7 @@ End-to-End ML Pipelines
 
 | Project | Description | Stack |
 |---|---|---|
-| [SHL Assessment Recommendation Agent](https://github.com/VIVEK-MARRI/SHL-assessment-recommendation-agent) | Deterministic RAG agent for SHL test recommendations. Live on Railway, 375 passing te[...]
+| [SHL Assessment Recommendation Agent](https://github.com/VIVEK-MARRI/SHL-assessment-recommendation-agent) | Deterministic RAG agent for SHL test recommendations. Live on Railway, 375 passing tests. | FastAPI, LangGraph, RAG |
 | [OrgPulse AI](https://github.com/VIVEK-MARRI/OrgPulse-AI) | Meeting transcripts → executive summaries and org risk signals. | React, Gemini, Neo4j |
 | [CRM AI Agent](https://github.com/VIVEK-MARRI/CRM_Ai_Agent) | Automated lead scoring and analytics. | React, Flask, FastAPI |
 | [EPMSSTS](https://github.com/VIVEK-MARRI/EPMSSTS) | Emotion-preserving speech translation — Telugu, Hindi, English. | FastAPI, faster-whisper |
@@ -121,7 +121,7 @@ End-to-End ML Pipelines
 | [RiskLens AI](https://github.com/VIVEK-MARRI/risklens-api) | Explainable fraud-scoring API — Random Forest + SHAP. | Flask, Streamlit |
 | [Insight Bot](https://github.com/VIVEK-MARRI/INSIGHT_BOT) | GenAI assistant for QA over PDFs, websites, images, audio. | LangChain, Gemini API |
 
-*Earlier builds: [AI Healthcare Chatbot](https://github.com/VIVEK-MARRI/AI-health-care-chat-bot), [Language Detection (BERT)](https://github.com/VIVEK-MARRI/Language-Detection-Using-NLP), [DSA Pr[...]
+*Earlier builds: [AI Healthcare Chatbot](https://github.com/VIVEK-MARRI/AI-health-care-chat-bot), [Language Detection (BERT)](https://github.com/VIVEK-MARRI/Language-Detection-Using-NLP).*
 
 <br/>
 
@@ -186,10 +186,10 @@ End-to-End ML Pipelines
 
 <div align="center">
   
-<img src="https://github-readme-stats.vercel.app/api?username=VIVEK-MARRI&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=C9D1D9"[...]>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VIVEK-MARRI&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=C9D1D9" alt="To[...]
+<img src="https://github-readme-stats.vercel.app/api?username=VIVEK-MARRI&show_icons=true&theme=tokyonight&cache_seconds=1800" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VIVEK-MARRI&layout=compact&theme=tokyonight&cache_seconds=1800" alt="Top Languages" />
 
-<img src="https://streak-stats.demolab.com?user=VIVEK-MARRI&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak"/>
+<img src="https://streak-stats.demolab.com?user=VIVEK-MARRI&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak" />
 
 </div>
 
@@ -218,3 +218,4 @@ End-to-End ML Pipelines
 <a href="mailto:vivekyadavmarri@gmail.com"><img src="https://img.shields.io/badge/Email-Drop_a_Message-22d3ee?style=for-the-badge&logo=gmail&logoColor=22D3EE" /></a>
 <a href="https://github.com/VIVEK-MARRI"><img src="https://img.shields.io/badge/GitHub-Follow-22d3ee?style=for-the-badge&logo=github&logoColor=22D3EE" /></a>
 </p>
+```
