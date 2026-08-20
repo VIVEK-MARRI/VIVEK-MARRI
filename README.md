@@ -185,9 +185,10 @@ End-to-End ML Pipelines
 ## GitHub Analytics
 
 <div align="center">
-  
-<img src="https://github-readme-stats.vercel.app/api?username=VIVEK-MARRI&show_icons=true&theme=tokyonight&cache_seconds=1800" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VIVEK-MARRI&layout=compact&theme=tokyonight&cache_seconds=1800" alt="Top Languages" />
+
+<img src="./profile/stats.svg" alt="GitHub Stats" />
+
+<img src="./profile/top-langs.svg" alt="Top Languages" />
 
 <img src="https://streak-stats.demolab.com?user=VIVEK-MARRI&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak" />
 
