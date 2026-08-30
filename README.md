@@ -178,7 +178,7 @@ End-to-End ML Pipelines
 - Built a multi-agent RAG platform (**RegIntel AI**) with 2,850+ passing tests and an 11-job CI pipeline
 - Shipped a deterministic RAG recommendation agent (**SHL Assessment Agent**) with 375 passing tests, live on Railway
 - Designed real-time systems combining LangGraph agents, Redis Streams, and live WebSocket dashboards (**IntelliLog AI**)
-- Earned Oracle (Generative AI, Agentic AI) and NVIDIA (Generative AI) professional certifications.
+- Earned Oracle (Generative AI, Agentic AI) and NVIDIA (Generative AI) professional certifications
 
 <br/>
 
